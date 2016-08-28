@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/h815/full_h815.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/tipsy/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := tesla_h815
+PRODUCT_NAME := tipsy_h815
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \
